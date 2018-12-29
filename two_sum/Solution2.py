@@ -5,3 +5,6 @@ class Solution2:
                 sum = nums[i] + nums[j]
                 if sum == target:
                     return(i, j)
+nums = [2,7,9,11]
+target = 9
+print(twoSum(nums,target))
